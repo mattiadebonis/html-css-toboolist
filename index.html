@@ -20,8 +20,9 @@
 
     </header>
     <!-- /intestazione della pagina-->
-    <main>
-        <!-- barra dei comandi-->
+
+    <!-- barra dei comandi-->
+    <nav class="impaginazione-sezioni">
         <div id="barra-comandi" class="indentazione-main">
             <div class="bottone" id="add-task">
                 <span >Add task</span>
@@ -29,29 +30,72 @@
             <div class="bottone" id="add-section">
                 <span>Add section</span>
             </div>
-
         </div>
-        <!-- /barra dei comandi-->
-        <br>
-        
+    </nav>
+    <!-- /barra dei comandi-->
 
+    <main class="impaginazione-sezioni">
         <!-- sezione new task-->
         <section>
             <h2>&dtrif; New Task</h2>
-            <span class="icona-stato check">&check;</span>
-            <p class="testo-to-do">
-                Quarterly Newsletter
-            </p>
-            <div class="tag editorial">
-                <span>editorial</span>
+            <div class="to-do">
+                <span class="icona-stato check">&check;</span>
+                <span class="testo-to-do">Quarterly Newsletter</span>
+                <span class="tag editorial">editorial</span>
             </div>
-
         </section>
         <!-- /sezione new task-->
-        
-        
 
+        <!-- sezione today-->
+        <section>
+            <h2>&dtrif; Today</h2>
+            <div class="to-do">
+                <span class="icona-stato check">&check;</span>
+                <span class="testo-to-do">Recruiting blog post</span>
+                <span class="tag editorial">editorial</span>
+            </div>
+            <div class="to-do">
+                <span class="icona-stato check">&check;</span>
+                <span class="testo-to-do">Mobile app launch</span>
+                <span class="tag q1-goals">Q1 goals</span>
+            </div>
+            <div class="to-do">
+                <span class="icona-stato cross">&cross;</span>
+                <span class="testo-to-do">Interview Jonh H.</span>
+                <span class="tag recruiting">Recruiting</span>
+            </div>
+            <div class="to-do">
+                <span class="icona-stato check">&check;</span>
+                <span class="testo-to-do">Summit update to mobile storefronts</span>
+                <span class="tag mobile">Mobile</span>
+            </div>
+        </section>
+        <!-- /sezione today-->
 
+        <!-- sezione upcoming-->
+        <section>
+            <h2>&dtrif; Upcoming</h2>
+            <div class="to-do">
+                <span class="icona-stato cross">&cross;</span>
+                <span class="testo-to-do">Schedule meeting with Alex</span>
+            </div>
+            <div class="to-do">
+                <span class="icona-stato check">&check;</span>
+                <span class="testo-to-do">Home page refresh</span>
+                <span class="tag website">Website</span>
+            </div>
+            <div class="to-do">
+                <span class="icona-stato check">&check;</span>
+                <span class="testo-to-do">Onboard new Sales team members</span>
+                <span class="tag sales">Sales</span>
+            </div>
+            <div class="to-do">
+                <span class="icona-stato check">&check;</span>
+                <span class="testo-to-do">Review editorial calendar</span>
+                <span class="tag editorial">Editorial</span>
+            </div>
+        </section>
+        <!-- /sezione upcoming -->
     </main>
     
 </body>
